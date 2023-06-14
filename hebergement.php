@@ -31,6 +31,9 @@
     <!-- Responsive -->
     <link rel="stylesheet" type="text/css" href="css/responsive.css"/>
 
+    <!-- Slider -->
+    <link rel="stylesheet" type="text/css" href="css/slider.css"/>
+
 </head>
 
 <body>
@@ -48,7 +51,8 @@
     <!--=================================
     page-title-->
 
-    <section class="page-title bg-overlay-black-60 jarallax" data-speed="0.6" data-img-src="img/02.jpg">
+    <section class="page-title bg-overlay-black-60 jarallax" data-speed="0.6">
+        <div class="head-slider"><img src="img/02.jpg" alt=""></div>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -57,11 +61,11 @@
                         <p>Jamais Seul ... </p>
                     </div>
                     <ul class="page-breadcrumb">
-                        <li><a href="#"><i class="fa fa-home"></i> Accueil</a> <i class="fa fa-angle-double-right"></i>
+                        <li><a href="index.php"><i class="fa fa-home"></i> Accueil</a> <i class="fa fa-angle-double-right"></i>
                         </li>
-                        <li><a href="#"><i class="fa fa-home"></i> Nos Établissements et Services</a> <i
+                        <li><a href="service.php"> Nos Établissements et Services</a> <i
                                     class="fa fa-angle-double-right"></i></li>
-                        <li><a href="#"><i class="fa fa-home"></i> Pôle Hébergement</li>
+                        <li><span> Pôle Hébergement</span></li>
                     </ul>
                 </div>
             </div>
@@ -75,7 +79,7 @@
     <!--=================================
      about -->
 
-    <section class="height-100vh split-section white-bg page-section-ptb o-hidden">
+    <section class="height-100vh split-section white-bg o-hidden">
         <div class="side-background">
             <div class="row">
                 <div class="col-lg-6 img-side img-left">
@@ -249,28 +253,8 @@
      careers-->
 
 
-    <!--=================================
-    our-services -->
 
-    <section class="action-box theme-bg full-width">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 position-relative">
-                    <div class="action-box-text">
-                        <h3><strong> Jamais Seul : </strong> Vous souhaitez nous contacter ? </h3>
-                    </div>
-                    <div class="action-box-button">
-                        <a class="button button-border white" href="#">
-                            <span>Cliquer Ici</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--=================================
-    action box- -->
+     <?php include('include/contact.php'); ?>
 
     <?php include('include/footer.php'); ?>
 </div>
@@ -291,6 +275,9 @@
 
 <!-- custom -->
 <script src="js/custom.js"></script>
+
+<!-- slider -->
+<script src="js/slider.js"></script>
 
 </body>
 </html>
