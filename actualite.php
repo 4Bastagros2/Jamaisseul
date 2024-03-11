@@ -30,6 +30,9 @@
 <!-- Responsive -->
 <link rel="stylesheet" type="text/css" href="css/responsive.css" />
 
+<!-- Slider -->
+<link rel="stylesheet" type="text/css" href="css/slider.css"/>
+
 </head>
 
 <body>
@@ -47,7 +50,8 @@
 <!--=================================
 page-title-->
 
-<section class="page-title bg-overlay-black-60 jarallax" data-speed="0.6" data-img-src="img/02.jpg">
+<section class="page-title bg-overlay-black-60 jarallax" data-speed="0.6">
+  <div class="head-slider"><img src="img/02.jpg" alt=""></div>
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
@@ -56,7 +60,7 @@ page-title-->
             <p>Jamais Seul ... </p>
           </div>
             <ul class="page-breadcrumb">
-              <li><a href="#"><i class="fa fa-home"></i> Accueil</a> <i class="fa fa-angle-double-right"></i></li>
+              <li><a href="index.php"><i class="fa fa-home"></i> Accueil</a> <i class="fa fa-angle-double-right"></i></li>
               <li><span>Nos Actualités</span> </li>
          </ul>
        </div>
@@ -344,6 +348,9 @@ action box- -->
 
 <!-- custom -->
 <script src="js/custom.js"></script>
+
+<!-- slider -->
+<script src="js/slider.js"></script>
 
 </body>
 </html>
